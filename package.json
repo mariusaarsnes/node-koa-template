@@ -1,0 +1,21 @@
+{
+  "name": "simple-node-koa-template",
+  "version": "1.0.0",
+  "description": "Simple Node + Koa server template",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "author": "Marius Aarsnes",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "koa": "^2.8.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
